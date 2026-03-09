@@ -17,7 +17,7 @@ payload = {
     "timestamp": datetime.now(timezone.utc).isoformat(timespec="milliseconds").replace("+00:00", "Z"),
     "name": "Rijad Foco",
     "email": "rijad.foco@hotmail.com",
-    "resume_link": "Na", 
+    "resume_link": "https://github.com/rijadriki19/b12-submission",
     "repository_link": "https://github.com/rijadriki19/b12-submission",
     "action_run_link": f"https://github.com/rijadriki19/b12-submission/actions/runs/{run_id}"
 }

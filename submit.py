@@ -12,6 +12,9 @@ run_id = os.environ.get("GITHUB_RUN_ID")
 if not run_id:
     raise RuntimeError("GITHUB_RUN_ID environment variable not found")
 
+action_run_link = f"https://github.com/rijadriki19/b12-submission/actions/runs/{run_id}"
+print(action_run_link)
+
 # Build the payload
 payload = {
     "timestamp": datetime.now(timezone.utc).isoformat(timespec="milliseconds").replace("+00:00", "Z"),

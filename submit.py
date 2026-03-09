@@ -12,7 +12,7 @@ payload = {
     "name": "Rijad Foco",
     "email": "rijad.foco@hotmail.com",
     "resume_link": "Na",
-    "repository_link": "https://github.com/yourusername/yourrepo",
+    "repository_link": "https://github.com/rijadriki19/b12-submission",
     "action_run_link": "https://github.com/yourusername/yourrepo/actions/runs/${{ github.run_id }}"
 }
 
